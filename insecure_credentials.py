@@ -12,4 +12,4 @@ def connect_to_database():
 
 if __name__ == "__main__":
     db_connection = connect_to_database()
-    print("Connected to database successfully.")
+    print(f"Connected to database: {db_connection}")
